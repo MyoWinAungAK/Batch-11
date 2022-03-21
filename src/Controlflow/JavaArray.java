@@ -6,7 +6,7 @@ public class JavaArray {
     public static void main(String[] args) {
         int a = 67; // variable initializa
         int b;
-        String name = "mg mg";
+        //String name = "mg mg";
 
         int numbers[]={23,3345,355,345,46,354}; // initializa
         String names[]= new String []{"mgmg","Khaung","Codewall","kyaw","Technology",null,""};
@@ -24,10 +24,23 @@ public class JavaArray {
      //   System.out.println(numbers);
 
         for (int i = 0; i < names.length; i++) {
-            System.out.print(names[i]+ "\t");
+            System.out.print(names[i] + "\t");
+
+        }
+        System.out.println();
+
+        for (String name : names) {
+            System.out.print(name+ "\t");
+        }
+        System.out.println();
+        for (int i = names.length - 1; i >= 0; i--) {
+            System.out.print(names[i]+"\t");
+            
+        }
+            }
 
         }
 
-    }
-}
+
+
 //Array
