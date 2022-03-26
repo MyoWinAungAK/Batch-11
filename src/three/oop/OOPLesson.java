@@ -6,6 +6,7 @@ public class OOPLesson {
 
         System.out.println(ObjectAndClass.number);
 
+        //ClassName ObjectName = New Constructor ();
         ObjectAndClass obj= new ObjectAndClass();
         System.out.println(obj.num);
 
