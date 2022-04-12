@@ -24,7 +24,7 @@ public class Calculator {
    static void division (int num1,int num2,String operation){
        System.out.println("Your first number is "+num1);
        System.out.println("Your second number is "+num2);
-       System.out.println("You chose "+ operation);
+       System.out.print("You chose "+ operation);
         System.out.println(num1/num2);
     }
     public static void main(String[] args) {
@@ -46,13 +46,13 @@ public class Calculator {
 
 
         if (operator==1){
-            sum(number1,number2,"sum operation");
+            sum(number1,number2,"sum option :");
         }else if (operator==2){
-            subtract(number1,number2,"subtract operation");
+            subtract(number1,number2,"subtract option :");
         }else if (operator==3){
-            multiply(number1,number2,"multiply operation");
+            multiply(number1,number2,"multiply option :");
         }else if (operator==4){
-            division(number1,number2,"division operation");
+            division(number1,number2,"division option :");
         }else {
             System.out.println("Your input operator is worng");
         }

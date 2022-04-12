@@ -9,7 +9,7 @@ public class PhoneBillPackage {
         System.out.print("Enter Code :");
         String userInputCode = new Scanner(System.in).nextLine();
 
-        if (userInputCode.equals("106")) {
+        if (userInputCode.equals("*106#")) {
             System.out.println("1.Voice");
             System.out.println("2.Data");
             System.out.println("3.အထူးလက်ဆောင်");
